@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======================== GOOGLE FONTS =============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ====================REMIXICON ============================= -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <!-- ======================== BOXICONS =============================== -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <!-- ======================== CSS FILE =============================== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ================== JAVASCRIPT FILE ============================-->
+    <script src="main.js" defer></script>
+    <title>Course Landing Page</title>
+  </head>
+  <body>
+    <!-- ================== LOADER ============================-->
+    <!-- ================== HEADER ============================-->
+    <header class="header" id="header">
+      <!-- ===== Nav Container inside a header ====== -->
+
+      <nav class="nav container">
+        <!-- ===== Logo ====== -->
+        <a href="#" class="nav__logo"> Snazy<span>Law</span> </a>
+
+        <!-- ===== Nav-links and close button ====== -->
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#offer" class="nav__link">Offer</a>
+            </li>
+            <li class="nav__item">
+              <a href="#team" class="nav__link">Our team</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">&times;</div>
+        </div>
+        
+        <!-- ===== Dark/Light  Mode ====== -->
+        <div class="dark__right__wrapper">
+          <div class="dart__light">
+            <i class="ri-sun-line"></i>
+            <i class="ri-moon-line"></i>
+          </div>
+          <!-- ===== Humbuger Menu ====== -->
+          <div class="nav__toggle" id="nav-toggle">
+            <img src="assets/bars.png" alt="" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ================== MAIN ============================-->
+    <main>
+      <!-- ================== HERO SECTION ============================-->
+      <div class="hero grid" id="hero"></div>
+        <div class="hero__wrapper">
+          <div class="left__section" id="left-section">
+            <h1>Overcome legal abstacles to your <span>success!</span></h1>
+            <p>
+              Law without obstacles for your success. Professional support to help
+              you overcome legal difficulties and achieve your goals.
+            </p>
+
+            <button class="hero__button button">Book a free consultation</button>
+          </div>
+          <div class="right__section" id="right-section">
+            <img src="assets/hero-pic.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- ================== ABOUT SECTION ============================-->
+
+      <div class="about__section " id="about">
+        <div class="container grid about__con">
+          <div class="about__left">
+            <h2 class="section__intro">About Us</h2>
+            <h3>A few words about our law firm</h3>
+            <p>
+              Trust, modernity, success. Our law firm builds relationships based
+              on trust and security. We act quickly, ensuring satisfaction and
+              comfort. We are your partner in business, removing legal obstacles
+              to success
+            </p>
+            <a class="button btn__info">More about the law firm</button>
+            </a>
+          </div>
+          <div class="about__right">
+            <img src="assets/about-pic.png" alt="" />
+          </div>
+        </div>
+      </main>
+      <!-- =============== UNIQUE QUALITIES SECTION ==================-->
+      <div class="offer">
+        <div class="offer__intro  container">
+          <h2 class="section__intro">What makes us different </h2>
+          <h3>Why choose our law firm?</h3>
+        </div>
+
+        <div class="container grid our__offer" id="offer">
+          <div class="offer__left">
+            <h2>95%</h2>
+            <p>Thanks to our skills and commitment, our law firm achieves a high degree of efficiency in resolving cases.</p>
+            <button class="button">Book a free consultation</button>
+          </div>
+          <div class="offer__right">
+            <div class="offet__top">
+              <h2>10+</h2>
+              <p>Years of experience is the solid foundation on which we base our law firm.</p>
+            </div>
+            <div class="offer__bottom">
+              <h2>+500</h2>
+              <p>More than 500 satisfied clients are the result of our excellent legal services</p>
+              <button class="button">Book a free consultation</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- =============== SPECIFICATIONS SECTION ==================-->
+      <div class="specifications">
+        <div class="specification__heading container">
+          <h2 class="section__intro">Specialisation</h2>
+          <h3>What we do</h3>
+          <p>Our lawyer are specialists in criminal law, civil law, commercial law, administrative law and new technologies. We are not afraid of chanllenges, including consumer bankruptcy</p>
+        </div>
+
+        <div class="container grid specifications__container">
+          <div class="specification__item">
+            <img src="assets/icon-1.png" alt="" class="icons">
+            <p>Law <br> Family</p>
+            <img class="arrow" src="assets/icon-arrow.png" alt="">
+          </div>
+
+          <div class="specification__item">
+            <img src="assets/icon-2.png" alt="" class="icons">
+            <p>Law <br> Criminal</p>
+            <img class="arrow" src="assets/icon-arrow.png" alt="">
+          </div>
+
+          <div class="specification__item">
+            <img src="assets/icon-3.png" alt="" class="icons">
+            <p>Law <br> Civil</p>
+            <img class="arrow" src="assets/icon-arrow.png" alt="">
+          </div>
+
+          <div class="specification__item">
+            <img src="assets/icon-4.png" alt="" class="icons">
+            <p>Law <br> Employment</p>
+            <img class="arrow" src="assets/icon-arrow.png" alt="">
+          </div>
+
+          <div class="specification__item">
+            <img src="assets/icon-5.png" alt="" class="icons">
+            <p>Law <br> Family</p>
+            <img class="arrow" src="assets/icon-arrow.png" alt="">
+          </div>
+
+          <div class="specification__item">
+            <img src="assets/icon-6.png" alt="" class="icons">
+            <p>Law <br> Family</p>
+            <img class="arrow" src="assets/icon-arrow.png" alt="">
+          </div>
+
+          <div class="specification__item">
+            <img src="assets/icon-7.png" alt="" class="icons">
+            <p>Law <br> Family</p>
+            <img class="arrow" src="assets/icon-arrow.png" alt="">
+          </div>
+
+          <div class="specification__item">
+            <img src="assets/icon-8.png" alt="" class="icons">
+            <p>Law <br> Family</p>
+            <img class="arrow" src="assets/icon-arrow.png" alt="">
+          </div>
+
+        </div>
+      </div>
+      <!-- =============== ABOUT US SECTION ==================-->
+      <div class="about" id="about">
+        <div class="about__heading container">
+          <h2 class="section__intro">Opinions about us</h2>
+          <h3>What our customers say about us</h3>
+        </div>
+        <div class="about__section grid container">
+          <div class="about__card">
+            <div class="about__card__top">
+              <div class="about_left">
+                <div class="about__card__img">
+                  <img src="assets/profile-1.png" alt="">
+                </div>
+                <div class="about__card__info">
+                  <h3>Jerome Bell</h3>
+                  <p class="social__name">@Jerome_Bell</p>
+                </div>
+              </div>
+              <div class="about__card__social">
+               <i class="ri-facebook-box-fill"></i>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia vitae massa convallis felis. Ante eu et viverra suscipit in. Nam a integer libero lorem eget tempor pharetra. Lectus etiam consequat at vitae mauris.</p>
+          </div>
+
+          <div class="about__card">
+            <div class="about__card__top">
+              <div class="about_left">
+                <div class="about__card__img">
+                  <img src="assets/profile-2.png" alt="">
+                </div>
+                <div class="about__card__info">
+                  <h3>Jane Ella</h3>
+                  <p class="social__name">@Jane_ella</p>
+                </div>
+              </div>
+              <div class="about__card__social">
+               <i class="ri-facebook-box-fill"></i>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia vitae massa convallis felis. Ante eu et viverra suscipit in. Nam a integer libero lorem eget tempor pharetra. Lectus etiam consequat at vitae mauris.</p>
+          </div>
+
+          <div class="about__card">
+            <div class="about__card__top">
+              <div class="about_left">
+                <div class="about__card__img">
+                  <img src="assets/profile-3.png" alt="">
+                </div>
+                <div class="about__card__info">
+                  <h3>Mike George</h3>
+                  <p class="social__name">@George_mike</p>
+                </div>
+              </div>
+              <div class="about__card__social">
+               <i class="ri-facebook-box-fill"></i>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia vitae massa convallis felis. Ante eu et viverra suscipit in. Nam a integer libero lorem eget tempor pharetra. Lectus etiam consequat at vitae mauris.</p>
+          </div>
+
+          <div class="about__card">
+            <div class="about__card__top">
+              <div class="about_left">
+                <div class="about__card__img">
+                  <img src="assets/profile-4.png" alt="">
+                </div>
+                <div class="about__card__info">
+                  <h3>Daniel Bill</h3>
+                  <p class="social__name">@Daniel_Bill</p>
+                </div>
+              </div>
+              <div class="about__card__social">
+               <i class="ri-facebook-box-fill"></i>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia vitae massa convallis felis. Ante eu et viverra suscipit in. Nam a integer libero lorem eget tempor pharetra. Lectus etiam consequat at vitae mauris.</p>
+          </div>
+
+          <div class="about__card">
+            <div class="about__card__top">
+              <div class="about_left">
+                <div class="about__card__img">
+                  <img src="assets/profile-1.png" alt="">
+                </div>
+                <div class="about__card__info">
+                  <h3>Jerome Bell</h3>
+                  <p class="social__name">@Jerome_Bell</p>
+                </div>
+              </div>
+              <div class="about__card__social">
+               <i class="ri-facebook-box-fill"></i>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia vitae massa convallis felis. Ante eu et viverra suscipit in. Nam a integer libero lorem eget tempor pharetra. Lectus etiam consequat at vitae mauris.</p>
+          </div>
+
+          <div class="about__card">
+            <div class="about__card__top">
+              <div class="about_left">
+                <div class="about__card__img">
+                  <img src="assets/profile-2.png" alt="">
+                </div>
+                <div class="about__card__info">
+                  <h3>Jane Ella</h3>
+                  <p class="social__name">@Jane_Ella</p>
+                </div>
+              </div>
+              <div class="about__card__social">
+               <i class="ri-facebook-box-fill"></i>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia vitae massa convallis felis. Ante eu et viverra suscipit in. Nam a integer libero lorem eget tempor pharetra. Lectus etiam consequat at vitae mauris.</p>
+          </div>
+
+          <div class="about__card">
+            <div class="about__card__top">
+              <div class="about_left">
+                <div class="about__card__img">
+                  <img src="assets/profile-3.png" alt="">
+                </div>
+                <div class="about__card__info">
+                  <h3>Daniel Bill</h3>
+                  <p class="social__name">@Daniel_Bill</p>
+                </div>
+              </div>
+              <div class="about__card__social">
+               <i class="ri-facebook-box-fill"></i>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia vitae massa convallis felis. Ante eu et viverra suscipit in. Nam a integer libero lorem eget tempor pharetra. Lectus etiam consequat at vitae mauris.</p>
+          </div>
+
+          <div class="about__card">
+            <div class="about__card__top">
+              <div class="about_left">
+                <div class="about__card__img">
+                  <img src="assets/profile-4.png" alt="">
+                </div>
+                <div class="about__card__info">
+                  <h3>Jerome Bell</h3>
+                  <p class="social__name">@Jerome_Bell</p>
+                </div>
+              </div>
+              <div class="about__card__social">
+               <i class="ri-facebook-box-fill"></i>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia vitae massa convallis felis. Ante eu et viverra suscipit in. Nam a integer libero lorem eget tempor pharetra. Lectus etiam consequat at vitae mauris.</p>
+          </div>
+        </div>
+        <div class="readmore__btn container">
+          <a href=""class="button read__more " >Read more obout the opinions</a>
+        </div>
+      </div>
+
+      <!-- =============== BLOG SECTION ==================-->
+      <div class="blog">
+        <div class="blog__heading">
+          <h2 class="section__intro">Blog</h2>
+          <h3>Newsroom</h3>
+        </div>
+        <div class="blog__container container grid" id="blog">
+          <div class="blog__card">
+            <div class="blog__img">
+              <img src="assets/news-1.png" alt="">
+            </div>
+            <h3>Criminal law </h3>
+            <h2>How do you prepare for a company’s RODO audit and implementation?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia .</p>
+          </div>
+          <div class="blog__card">
+            <div class="blog__img">
+              <img src="assets/news-2.png" alt="">
+            </div>
+            <h3>Criminal law </h3>
+            <h2>How do you prepare for a company’s RODO audit and implementation?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia .</p>
+          </div>
+          <div class="blog__card">
+            <div class="blog__img">
+              <img src="assets/news-3.png" alt="">
+            </div>
+            <h3>Criminal law </h3>
+            <h2>How do you prepare for a company’s RODO audit and implementation?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Parturient leo aliquet ligula enim lacinia .</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ================== FOOTER ============================-->
+    <footer class="footer">
+      <div class="footer__wrapper container">
+        <div class="footer__left">
+           <a href="#" class="nav__logo"> Snazy<span>Law</span> </a>
+          <p>help@snazzylawyer.com</p>
+          <p>+48 601 908 812</p>
+        </div>
+        <div class="footer__right">
+          <div class="footer__left__right">
+            <div class="footer__inner__right-1">
+              <h3>Specialties</h3>
+              <a href="">Family law</a>
+              <a href="">Criminal law</a>
+              <a href="">Civil law</a>
+              <a href="">Labour law </a>
+              <a href="">Real estate law</a>
+            </div>
+            <div class="footer__inner__right-2">
+              <a href="">Compensation</a>
+              <a href="">Succession matters</a>
+              <a href="">Consumer bankruptcy</a>
+              <a href="">Drafting </a>
+              <a href="">Reviewing contracts</a>
+            </div>
+          </div>
+          <div class="footer__right__right">
+            <h3>Resources</h3>
+            <a href="">FQA</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="copy__right">
+        <p class="reserved__right">©SnazzylawyerAll Right Reserved</p>
+        <div class="footer__socials">
+          <i class="ri-youtube-line"></i>
+          <i class="ri-facebook-box-line"></i>
+          <i class="ri-tiktok-fill"></i>
+        </div>
+        <p class="privacy__policy">Privacy policy</p>
+      </div>
+    </footer>
+    <!-- ================== SCROLL UP ============================-->
+
+   
+  </body>
+</html>
